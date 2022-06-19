@@ -1,0 +1,19 @@
+{
+  "name": "goomer-lista-rango",
+  "version": "1.0.0",
+  "description": "Challenge - Developer Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grazziano/Goomer-Lista-Rango.git"
+  },
+  "author": "Grazziano B. Fagundes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grazziano/Goomer-Lista-Rango/issues"
+  },
+  "homepage": "https://github.com/Grazziano/Goomer-Lista-Rango#readme"
+}
