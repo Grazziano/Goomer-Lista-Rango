@@ -1,10 +1,8 @@
 import { Request, Response, Router } from 'express';
+import { CreateCategoryController } from './controllers/category/CreateCategoryController';
 
 const router = Router();
 
-router.get('/teste', (req: Request, res: Response) => {
-  // return res.json({ message: 'Hello World! 😃' });
-  throw new Error('TESTE');
-});
+router.post('/category', new CreateCategoryController().handle);
 
 export { router };
